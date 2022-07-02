@@ -25,3 +25,6 @@
 # Removablee
 /external_sd        vfat      /dev/block/mmcblk0p1         /dev/block/mmcblk0						flags=storage;wipeingui;removable
 /usb-otg            vfat      /dev/block/sdd1                     									flags=display="usb-otg";storage;wipeingui;removable;fsflags="utf8";
+
+## Internal storage (for OrangeFox)
+/storage            f2fs      /data/media/0                                                         flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";removable;
