@@ -183,11 +183,6 @@ SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
 SHRP_FLASH := 1
 SHRP_CUSTOM_FLASHLIGHT := true
-SHRP_FONP_1 := /sys/class/leds/led:torch_0/brightness
-SHRP_FONP_2 := /sys/devices/virtual/torch/torch/torch_level
-SHRP_FONP_3 := /sys/class/leds/led:switch/brightness
+SHRP_FONP_1 := /sys/devices/virtual/torch/torch/torch_level
 SHRP_FLASH_MAX_BRIGHTNESS := 1
 SHRP_AB := true
-
-
-
