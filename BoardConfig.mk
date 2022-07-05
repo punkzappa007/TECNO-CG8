@@ -147,6 +147,9 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Device config
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_MAX_BRIGHTNESS := 2047
@@ -186,3 +189,6 @@ SHRP_CUSTOM_FLASHLIGHT := true
 SHRP_FONP_1 := /sys/devices/virtual/torch/torch/torch_level
 SHRP_FLASH_MAX_BRIGHTNESS := 1
 SHRP_AB := true
+SHRP_EDL_MODE := 0
+SHRP_EXPRESS_USE_DATA := true
+SHRP_LITE := true
